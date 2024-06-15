@@ -88,6 +88,7 @@ PRIVATE
     desktop-app::external_qr_code_generator
     desktop-app::external_crash_reports
     desktop-app::external_auto_updates
+    desktop-app::external_lzma
     desktop-app::external_openssl
     desktop-app::external_openal
     desktop-app::external_xxhash
@@ -1914,6 +1915,7 @@ if (NOT DESKTOP_APP_DISABLE_AUTOUPDATE AND NOT build_macstore AND NOT build_wins
             desktop-app::external_qt
             desktop-app::external_zlib
             desktop-app::external_auto_updates
+            desktop-app::external_lzma
             desktop-app::external_openssl
         )
 
